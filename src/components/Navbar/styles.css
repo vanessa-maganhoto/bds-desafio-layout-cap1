@@ -61,7 +61,11 @@
 
     .navbar-collapse{
         justify-content: flex-end;
-    }
+    } 
+}
 
-    
+@media (min-width: 1200px){
+    .main-nav{
+        padding: 25px 130px 17px;
+    }
 }
