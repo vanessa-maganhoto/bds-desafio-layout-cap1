@@ -1,0 +1,44 @@
+.product-card {
+    margin: 20px auto;
+    width: 300px;
+}
+
+.card-top-container {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 22px 15px 20px;
+    align-items: center;
+}
+
+.card-top-container img {
+    width: 220.72px;
+    height: 165px;
+}
+
+.card-top-container h6 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    padding: 8px 0 14px;
+}
+
+.card-top-container p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: #585858;
+    text-align: center;
+}
+
+.card-top-container button {
+    width: 258px;
+    height: 40px;
+    background: #00285F;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+    text-transform: uppercase;
+}
