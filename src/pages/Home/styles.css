@@ -2,6 +2,7 @@
     padding: 10px;
     font-size: 20px;
     text-align: center;
+    width: 100%;
 }
 
 .home-card {
@@ -44,57 +45,72 @@
 
 @media (min-width: 576px) {
     .home-container {
-        padding: 15px;
-        font-size: 40px;
+        padding: 20px 20px 41px;
+        border-radius: 10px;
+    }
+
+    .home-card{
+        width: 536px;
+        height: 365px;
     }
 
     .home-content-container h1 {
-        width: 506px;
-        margin-bottom: 20px;
+        width: 420px;
+        font-size: 36px;
     }
 
     .home-content-container p {
-        width: 506px;
-        margin-bottom: 20px;
+        width: 420px;
+        font-size: 18px;
+    }
+
+    .home-image-container{
+        padding: 22px 28px 19px;
     }
 
     .home-image-container svg {
-        width: 506px;
+        width: 333px;
     }
 }
 
 @media (min-width: 768px) {
-    .home-image-container {
-        padding: 100px 20px;
+    .home-card{
+        width: 728px;
+        height: 475px;
+        padding: 79px 146px 37px 153px;
     }
 
-    .home-content-container {
-        padding: 20px 20px 100px 20px;
+    .home-content-container h1{
+        font-size: 36px;
+        margin: 0;
     }
 }
 
 @media (min-width: 992px) {
-    .home-container {
-        font-size: 55px;
-        padding: 40px;
+    .home-card {
+        padding: 82px 248px 124px;
+        width: 952px;
+        height: 579px;
+        
     }
 
-    .home-image-container {
-        padding: 125px 20px;
-    }
-
-    .home-content-container {
-        padding: 20px 20px 150px 20px;
+    .home-content-container{
+        padding: 0;
     }
 
     .home-content-container h1 {
-        width: 700px;
-        margin-bottom: 26px;
+        /* width: 420px; */
+        font-size: 36px;
     }
 
-    .home-content-container p {
-        width: 700px;
-        margin-bottom: 47px;
+
+    .home-image-container{
+        width: 455px;
+        padding: 0;
+    }
+
+    .home-image-container img {
+        width: 100%;
     }
 }
 

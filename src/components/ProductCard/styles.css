@@ -28,7 +28,7 @@
     font-weight: 400;
     font-size: 14px;
     color: #585858;
-    text-align: center;
+    
 }
 
 .card-top-container button {
@@ -42,3 +42,45 @@
     border: none;
     text-transform: uppercase;
 }
+
+@media (min-width: 576px){
+    .product-card{
+        width: 100%;
+    }
+
+    .card-top-container p{
+        font-size: 12px;
+    }
+
+    .card-top-container button{
+        width: 220px;
+    }
+}
+
+@media (min-width: 768px){
+    .product-card{
+        height: 347px;
+    }
+
+    .card-top-container p{
+        font-size: 14px;
+    }
+    .card-top-container button{
+        width: 307px;
+    }
+}    
+
+@media (min-width: 992px) {
+    .card-top-container{
+        padding: 14px 19px 15px;
+    }
+
+    .card-top-container img {
+        width: 213.51px;
+    }
+
+    .card-top-container button{
+        width: 257px;
+    }
+}
+

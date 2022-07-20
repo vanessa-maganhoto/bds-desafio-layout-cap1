@@ -19,3 +19,25 @@ a, a:hover{
   background-color: #EDEDED;
   border-radius: 10px;
 }
+
+@media(min-width: 576px){
+  /* .my-4{
+    margin: 20px;
+    padding: 0;
+  } */
+}
+
+@media(min-width: 768px){
+  .my-4{
+    margin: 30px 20px;
+  }
+}
+
+/* @media(min-width: 1200px){
+  .my-4{
+    padding: 30px 16px 30px 130px;
+    width: 100%;
+    margin: 0;
+    gap: 30px;
+  }
+} */

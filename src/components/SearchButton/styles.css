@@ -1,5 +1,5 @@
 .search-container {
-    width: 300px;
+    width: 100%;
     height: 86px;
     background: #EDEDED;
     border-radius: 10px;
@@ -39,4 +39,40 @@
     padding: 12px 10px 12px 14px;
     width: 100%;
     height: 100%;
+}
+
+@media (min-width: 576px) {
+    .search-container {
+        height: 123px;
+        padding: 42px 22px 41px 20px;
+    }
+
+    .input-container {
+        width: 320px;
+    }
+
+    .button-container {
+        width: 174px;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .input-container {
+        width: 516px;
+    }
+}
+
+@media (min-width: 992px) {
+    .search-container {
+        padding: 42px 97px 41px;
+    }
+
+    .input-container {
+        width: 584px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
 }

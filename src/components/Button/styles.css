@@ -33,12 +33,21 @@
 }
 
 @media (min-width: 576px) {
-    .btn-icon-container {
-        width: 70px;
-        height: 70px;
+    .btn-container {
+        flex-direction: row;
     }
 
     .btn h6 {
-        font-size: 18px;
+        font-size: 14px;
+    }
+
+    .btn-container p{
+        margin: 0 0 0 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn-container{
+        padding: 42px 230px 41px 105px;
     }
 }

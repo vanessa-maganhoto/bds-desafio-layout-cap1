@@ -22,9 +22,9 @@ function Home() {
         </div>
       </div>
       <div>
-        <Link to="/products">
+        {<Link to="/products">
           <Button />
-        </Link>
+        </Link>}
       </div>
     </div>
   );

@@ -7,7 +7,6 @@ const SearchButton = () => {
         <input placeholder="Digite sua busca"></input>
         </div>
       
-
       <div className="button-container">
         <button> Buscar </button>
       </div>
